@@ -4,7 +4,8 @@
   "description": "A complete Node.js wrapper for Ghost API",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "mocha --reporter spec"
+    "test": "mocha --reporter spec",
+    "prepublish": "npm test"
   },
   "repository": {
     "type": "git",
