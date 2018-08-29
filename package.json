@@ -4,7 +4,11 @@
   "description": "A complete Node.js wrapper for Ghost API",
   "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KolektifLabs/ghost-node-api.git"
   },
   "keywords": [
     "ghost",
@@ -12,6 +16,14 @@
   ],
   "author": "Arda Yigithan Orhan <yigithan@kolektiflabs.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KolektifLabs/ghost-node-api.git/issues"
+  },
+  "homepage": "https://github.com/KolektifLabs/ghost-node-api.git#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  },
   "dependencies": {
     "request": "^2.88.0"
   }
