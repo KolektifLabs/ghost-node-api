@@ -1,6 +1,6 @@
 {
   "name": "ghost-api",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A complete Node.js wrapper for Ghost API",
   "main": "./lib/index.js",
   "scripts": {
