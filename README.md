@@ -196,7 +196,51 @@ client.getUserBySlug({},'user-slug-here', function (err, response, user) {
 
 ## Private API
 
-Coming soon!
+### POSTS
+
+#### client.createPost
+
+```js
+
+client.createPost({}, post, function (err, response, post) {
+	if(err){
+        console.log(err);
+    } else {
+        console.log(post);
+    }
+});
+
+```
+
+#### client.updatePost
+
+```js
+
+client.updatePost({}, post, function (err, response, post) {
+	if(err){
+        console.log(err);
+    } else {
+        console.log(post);
+    }
+});
+
+```
+
+#### client.deletePost
+
+```js
+
+client.deletePost({}, 'post-id-here', function (err, response, data) {
+	if(err){
+        console.log(err);
+    } else {
+        console.log(posts);
+    }
+});
+
+```
+
+more coming soon!
 
 ## License MIT
 
